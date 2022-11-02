@@ -1,0 +1,70 @@
+
+body {
+  background-color: #fdfdfd;
+  color: 353535;
+  line-height: 25px;
+  font-size: medium;
+  font-family: 'Roboto Slab', serif;
+  line-height: 30px;
+}
+
+.link {
+  text-align: center;
+  line-height: 40px;
+}
+
+#link_id {
+  background-color: #3C6E71;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+h1, h2 {
+  color: #C7C7C7;
+  line-height: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.p1, .p2, .p3 {
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 10px;
+  margin: 20px;
+}
+
+.container {
+  margin: 50px auto;
+  width: 50px auto;
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
